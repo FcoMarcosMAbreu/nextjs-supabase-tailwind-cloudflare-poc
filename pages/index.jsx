@@ -1,12 +1,15 @@
-import type { NextPage } from 'next'
+//import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from '../components/Image'
 import { useState, useEffect } from 'react'
 import { supabase } from '../utils/supabaseClient'
 import Auth from '../components/Auth'
 import Account from '../components/Account'
+//import { createClient, Session } from "@supabase/supabase-js"
+//import { definitions } from "../types/supabase"
 
-const Home: NextPage = () => {
+//const Home: NextPage = () => {
+const Home = () => {
   const [session, setSession] = useState(null)
 
   useEffect(() => {
