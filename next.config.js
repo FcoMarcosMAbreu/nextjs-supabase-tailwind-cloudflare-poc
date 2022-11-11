@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  reactStrictMode: true,
-  images: {
-    loader: 'imgix',
-    path: ''
+const nextConfig = {
+  experimental: {
+    runtime: 'experimental-edge',
   },
+  reactStrictMode: true,
 }
+
+module.exports = nextConfig
