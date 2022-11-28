@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import Link from "next/link";
 import React from "react";
-import Image from "next/future/image";
+import Image from "next/image";
 import supaLogo from "../public/supabase.webp";
 
 const Header = () => {
