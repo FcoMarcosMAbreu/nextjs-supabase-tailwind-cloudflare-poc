@@ -1,5 +1,9 @@
 import { supabase } from '../../lib/initSupabase'
 
+export const config = {
+  runtime: 'experimental-edge',
+}
+
 // Example of how to verify and get user data server-side.
 const getUser = async (req, res) => {
   const token = req.headers.token
