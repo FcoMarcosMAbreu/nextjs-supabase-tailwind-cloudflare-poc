@@ -37,3 +37,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
  -->
 
 The deploy is been made on Cloudflare Pages and Functions. More details soon...
+
+## Supabase Authentication
+
+This example shows how to use Supabase Auth on the client and server in both [API Routes](https://nextjs.org/docs/api-routes/introduction) and when using [server-side rendering (SSR)](https://nextjs.org/docs/basic-features/pages#server-side-rendering).
+
+Set all relevant environment variables to that project being usable immediately after deployment 🚀
