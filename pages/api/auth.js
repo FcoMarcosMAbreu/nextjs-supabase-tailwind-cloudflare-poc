@@ -7,6 +7,6 @@ export const config = {
   runtime: 'experimental-edge',
 }
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   supabase.auth.api.setAuthCookie(req, res)
 }
