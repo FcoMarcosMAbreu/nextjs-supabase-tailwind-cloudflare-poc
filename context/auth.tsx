@@ -49,7 +49,8 @@ export const useInitAuth = () => {
     });
 
     return () => {
-      subscription?.unsubscribe();
+      subscription.subscription?.unsubscribe();
+      /* subscription?.removeAllChannels(); */
     };
 
     // We are getting the latest pathname state regardless here as we are using object notion for the router. Disable eslint for this line.
